@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(print %o $(($((5#$echo $WATER | tr "water" "1995"))) + $((5#$(echo $STIR | tr "stir." "2020"))))) | tr "2023" "bestchol"
+echo $(printf %o $(($((5#$echo $WATER | tr "water" "1995"))) + $((5#$(echo $STIR | tr "stir." "2020"))))) | tr "2023" "bestchol"
